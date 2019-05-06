@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "994678289417",
+    "firebase_url": "https://face-detector-zaid.firebaseio.com",
+    "project_id": "face-detector-zaid",
+    "storage_bucket": "face-detector-zaid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994678289417:android:554be80e4fba392f",
+        "android_client_info": {
+          "package_name": "thezaxis.facedetector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994678289417-pq345ku5kmqv07cjo7jh7hef1j6q41oc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCh8LXm7ULZYtbH3QYKnFBjFw5biC2Ymo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994678289417-pq345ku5kmqv07cjo7jh7hef1j6q41oc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
