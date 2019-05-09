@@ -15,17 +15,31 @@
     </com.otaliastudios.cameraview.CameraView>
 
 
-    <husaynhakeem.io.facedetector.FaceBoundsOverlay
+
+    <thezaxis.facedetector.helpers.FaceBoundsOverlay
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-    android:id="@+id/facesbounds_overlay">
-    </husaynhakeem.io.facedetector.FaceBoundsOverlay>
-    <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView"
-            android:textSize="30sp"
-            android:layout_marginLeft="100dp"
-            android:layout_marginTop="100dp"
-            android:text="Hello"/>
+            android:keepScreenOn="true"
+            android:id="@+id/facesbounds_overlay">
+    </thezaxis.facedetector.helpers.FaceBoundsOverlay>
+
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+
+        <TextView
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                android:textSize="30sp"
+                style="@style/AudioFileInfoOverlayText"
+                android:text="Show me your Face!"/>
+        />
+    </RelativeLayout>
+
+
+
 </FrameLayout>
